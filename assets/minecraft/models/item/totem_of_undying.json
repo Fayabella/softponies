@@ -2,5 +2,8 @@
   "parent": "minecraft:item/handheld",
   "textures": {
     "layer0": "minecraft:item/totem_of_undying"
-  }
+  },
+  "overrides": [
+ {"predicate": {"custom_model_data":69}, "model": "item/auby"}
+ ]
 }
